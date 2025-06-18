@@ -176,7 +176,7 @@ ol {
   border-left: 0;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   background: transparent;
   appearance: none;
   padding: 2.5px 14px 2.5px 0;
@@ -203,6 +203,7 @@ ol {
 .search-form__pseudo-checkbox {
   position: relative;
   display: flex;
+  align-self: center;
   flex-shrink: 0;
   width: 19px;
   height: 19px;
