@@ -18,6 +18,7 @@ html {
   background-color: #1b1919;
   display: flex; 
   align-items: center;
+  border: 1px solid white;
 }
 
 h1,
@@ -106,11 +107,12 @@ ol {
 
 .more-button {
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 7px;
 }
 
 /* Блок result */
 .result {
-  margin-left: 10px;
   margin-bottom: 4.5px;
   margin-top: 74px;
 }
@@ -269,12 +271,13 @@ ol {
   max-height: 298px;
   overflow-y: auto;
   width: 400px;
+  overflow-x: hidden;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   padding-left: 2px;
 }
 
@@ -284,8 +287,8 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 200px;
-  height: 110;
+  width: 194px;
+  height: 103px;
   object-fit: cover;
   object-position: center;
 }
